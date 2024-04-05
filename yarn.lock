@@ -603,7 +603,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.61.0":
+"@wix/image-kit@npm:^1.62.0":
   version: 1.62.0
   resolution: "@wix/image-kit@npm:1.62.0"
   dependencies:
@@ -741,7 +741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/redirects@npm:^1.0.13, @wix/redirects@npm:^1.0.35":
+"@wix/redirects@npm:^1.0.13, @wix/redirects@npm:^1.0.36":
   version: 1.0.36
   resolution: "@wix/redirects@npm:1.0.36"
   dependencies:
@@ -759,6 +759,13 @@ __metadata:
   dependencies:
     "@wix/sdk-types": ^1.5.5
   checksum: 37f06833aeb86c1e9c04e2229375f68dce2d8e18412627a3f04da0c602af10afadd7ce5535b5cd272445d4277d3ab919957c5437df45e6228624744c04c1c1f5
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-types@npm:^1.5.11":
+  version: 1.5.11
+  resolution: "@wix/sdk-types@npm:1.5.11"
+  checksum: 1aea97e9510b7996a6d2694f7865d42dffe69fb808efc9aac73eb0418b4f0a664665179aad185d4ebf6f8cf369d07bb5f3cd27b664222772f4110ef53528c316
   languageName: node
   linkType: hard
 
@@ -784,14 +791,14 @@ __metadata:
   linkType: hard
 
 "@wix/sdk@npm:^1.5.0":
-  version: 1.7.12
-  resolution: "@wix/sdk@npm:1.7.12"
+  version: 1.7.14
+  resolution: "@wix/sdk@npm:1.7.14"
   dependencies:
     "@babel/runtime": ^7.23.2
     "@wix/identity": ^1.0.74
-    "@wix/image-kit": ^1.61.0
-    "@wix/redirects": ^1.0.35
-    "@wix/sdk-types": ^1.5.9
+    "@wix/image-kit": ^1.62.0
+    "@wix/redirects": ^1.0.36
+    "@wix/sdk-types": ^1.5.11
     crypto-js: ^4.2.0
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     jose: ^5.2.1
@@ -801,7 +808,7 @@ __metadata:
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: 3b5e96cc6dd7d47cdd22a410327f6a99164c92a6a1ad6f7d2a2e4ff1f06c35481c8960ece8860f308cd395c8c71e9fa79033b90e4de45b27f21d5aefb9fcf4e3
+  checksum: 3863baddd4dcea11906e98d5e7b22dfc16bf22ea56b4b055b59f446aae8a4cd6ca278a01194c27377277314ab48b646e87f51395447fe92e4ff6edba7f363b72
   languageName: node
   linkType: hard
 
